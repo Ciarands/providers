@@ -1,0 +1,15 @@
+*
+
+# Directories
+!movie_cat_providers
+!extractors
+!sources
+!utils
+!tests
+
+# Files
+!*.py
+!.gitignore
+!LICENSE
+!pyproject.toml
+!README.md

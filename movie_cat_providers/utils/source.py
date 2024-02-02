@@ -1,0 +1,4 @@
+# Enums
+STANDARD = 0
+ANIME = 1
+SPORTS = 2

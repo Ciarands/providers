@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "movie-cat-providers"
+version = "0.1.0"
+description = "All providers for movie-cat"
+authors = ["Ciarands"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "movie_cat_providers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "~=0.26.0"
+pycryptodomex = "~=3.20.0"
+
+[tool.poetry.scripts]
+movie-cat-providers = "movie_cat_providers.__main__:__movie_cat_providers__"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
